@@ -70,3 +70,14 @@ The story leaves the bottom of the frame clear for a link sticker.
 
 - **Still to add:** music, and drone footage if HomeTrack shot any (the zip had photos only).
 - **Higgsfield:** not used yet and no credits spent. The balance is 131.6 credits.
+
+## Open house: Sunday, November 15, 10:00 am to 12:00 pm
+
+Graphics: `social/open-house-story-9x16.png` and `social/open-house-feed-4x5.png`.
+
+**Caption**
+Open house this Sunday, 10 to noon.
+99 S. Paradise Ave is back on the market at $550,000: a 1941 brick home on 0.44 acres in Tanglewood, with 3 bedrooms, 3.5 baths and a residential elevator.
+The inspection report is available, so you can walk in knowing what the house needs. Come see it in person.
+
+Nathan Poole-McCullough, Murrow & McCullough Team of Corner House Realty · office (443) 499-3839 · Equal Housing Opportunity

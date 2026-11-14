@@ -119,6 +119,9 @@
   .hero-price strong { font-family: var(--display); font-weight: 500; font-size: clamp(30px, 4.4vw, 44px); letter-spacing: -0.01em; }
   .hero-price span { font-size: 14px; color: var(--slate); }
 
+  .open-house { display: inline-block; margin-top: 22px; padding: 12px 18px; background: var(--moss); color: var(--moss-ink); font-size: 16px; }
+  .open-house strong { font-weight: 600; margin-right: 8px; text-transform: uppercase; letter-spacing: .1em; font-size: 13px; }
+
   /* Stat rail */
   .stats { margin-top: clamp(28px, 4vw, 48px); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
   .stats ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); }
@@ -181,6 +184,8 @@
   dl.facts div { display: flex; justify-content: space-between; gap: 20px; padding: 14px 0; border-top: 1px solid var(--line); font-size: 16px; }
   dl.facts dt { color: var(--slate); }
   dl.facts dd { margin: 0; text-align: right; font-weight: 500; }
+  .goodtoknow { color: var(--ink); font-size: 15px; padding: 16px 18px; background: var(--paper-deep); border-left: 3px solid var(--moss); }
+  .goodtoknow strong { font-weight: 600; }
   .fineprint { margin-top: 22px; font-size: 14px; color: var(--slate); max-width: 62ch; }
 
   /* Showing */
@@ -273,13 +278,15 @@
     <div class="slot" data-label="front exterior (hero)"><img src="photos/p01.jpg" alt="Front of the brick home at 99 S. Paradise Avenue, with its covered porch and balcony" onerror="this.remove()" fetchpriority="high"></div>
     <div class="wrap">
       <div class="hero-card">
-        <div class="eyebrow">For sale · Tanglewood, Catonsville</div>
+        <div class="eyebrow">Back on the market · Tanglewood, Catonsville</div>
         <h1>99 S. Paradise Avenue</h1>
         <p class="hero-sub">Catonsville, Maryland 21228</p>
         <div class="hero-price">
           <strong class="num">$550,000</strong>
           <span>MLS # MDBC2175364 · Listed by Corner House Realty</span>
         </div>
+        <!-- Remove this line after the open house -->
+        <p class="open-house"><strong>Open house</strong> Sunday, November 15 · 10:00 am to 12:00 pm</p>
       </div>
 
       <div class="stats">
@@ -311,7 +318,7 @@
         <h2>What 1941 got right, and what has been added since</h2>
       </div>
       <div class="feat-grid">
-        <div class="feat"><h3>Brick, start to finish</h3><p>Solid brick construction with a German-smear finish that gives the exterior its soft, textured look.</p></div>
+        <div class="feat"><h3>Brick and slate</h3><p>Solid brick with a German-smear finish and a slate roof, the materials that give the house its curb appeal.</p></div>
         <div class="feat"><h3>Original character</h3><p>Arched doorways, built-ins and hardwood floors through much of the home.</p></div>
         <div class="feat"><h3>A residential elevator</h3><p>Moves between levels without the stairs. Useful now, and it keeps the house workable for the long run.</p></div>
         <div class="feat"><h3>0.44-acre corner lot</h3><p>Mature trees, privacy, and a yard fully fenced in both the front and the back.</p></div>
@@ -388,6 +395,7 @@
           <div><dt>Community</dt><dd>Tanglewood</dd></div>
           <div><dt>Terms</dt><dd>Sold as-is</dd></div>
         </dl>
+        <p class="fineprint goodtoknow"><strong>Good to know.</strong> The home is back on the market after the first buyer withdrew. The inspection report is available on request. Items it identified include a few cracked slate roof tiles, which are being evaluated, electrical wiring repairs, which are being addressed, and an area that needs mold remediation.</p>
         <p class="fineprint">Listing information from Bright MLS, # MDBC2175364. Information is deemed reliable but is not guaranteed and should be independently verified.</p>
       </div>
     </div>
