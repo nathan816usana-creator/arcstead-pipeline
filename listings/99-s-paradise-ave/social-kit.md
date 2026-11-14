@@ -12,7 +12,7 @@ Nothing here has been posted. The landing page is live at https://99-s-paradise-
 Showings are open. Link in bio.
 
 **2. The money already spent**
-About $50,000. That is what the sellers put into 99 S. Paradise: kitchen, bathroom, flooring, paint, patio, fencing, plumbing, water heater.
+About $55,000. That is what the sellers put into 99 S. Paradise: kitchen, bathroom, flooring, paint, patio, fencing, plumbing, water heater.
 1941 brick on a corner lot in Tanglewood, offered at $550,000.
 Link in bio to book a showing.
 
@@ -32,7 +32,7 @@ That is the math on 99 S. Paradise Ave: 2,762 finished square feet at $550,000. 
 Three things set it apart:
 
 - A residential elevator, which is rare in a house of this age and makes every level usable for the long run.
-- About $50,000 in recent work from the sellers: kitchen, bathroom, flooring, paint, patio, fencing, plumbing and a new water heater.
+- About $55,000 in recent work from the sellers: kitchen, bathroom, flooring, paint, patio, fencing, plumbing and a new water heater.
 - A finished lower level with a full bath and a second kitchen. It is not counted as a bedroom, and the price reflects the room that level still has to improve.
 
 It is being sold as-is, and it is priced that way.
@@ -50,7 +50,7 @@ All seven are the real HomeTrack photos with set type. Nothing in them is AI-gen
 | `carousel-1.png` | 1080×1350 | 0.44 acres in Catonsville | Front of the home |
 | `carousel-2.png` | 1080×1350 | The character is still here | Living room |
 | `carousel-3.png` | 1080×1350 | And it has an elevator | Upper landing |
-| `carousel-4.png` | 1080×1350 | About $50,000 in updates | Kitchen |
+| `carousel-4.png` | 1080×1350 | About $55,000 in updates | Kitchen |
 | `carousel-5.png` | 1080×1350 | $550,000 and how to book | Front of the home |
 
 The story leaves the bottom of the frame clear for a link sticker.
@@ -65,7 +65,7 @@ The story leaves the bottom of the frame clear for a link sticker.
 | 3–6s | Front, straight on | Built 1941. Solid brick. |
 | 6–8s | Living room | The character is still here |
 | 8–11s | Elevator | And it has an elevator |
-| 11–14s | Kitchen | About $50,000 in updates |
+| 11–14s | Kitchen | About $55,000 in updates |
 | 14–18s | Front of the home | $550,000 · 3 bd · 3.5 ba · 2,762 sq ft · Book a showing: link in bio |
 
 - **With music:** `social/reel-with-music.mp4`. The instrumental was generated with Higgsfield (ElevenLabs Music v2.5) for 2.62 credits.
