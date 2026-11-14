@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>99 S. Paradise Ave, Catonsville MD | $550,000 | Corner House Realty</title>
+<meta name="description" content="1941 brick home on a 0.44-acre corner lot in Tanglewood, Catonsville. 3 bedrooms, 3.5 baths, 2,762 finished sq ft, residential elevator. Offered at $550,000 by Corner House Realty.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="99 S. Paradise Ave, Catonsville | $550,000">
+<meta property="og:description" content="1941 brick on a 0.44-acre corner lot. 3 bed, 3.5 bath, 2,762 sq ft, residential elevator. Book a private showing.">
+<meta property="og:image" content="photos/01-front.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SingleFamilyResidence",
+  "name": "99 S. Paradise Avenue",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "99 S. Paradise Avenue",
+    "addressLocality": "Catonsville",
+    "addressRegion": "MD",
+    "postalCode": "21228",
+    "addressCountry": "US"
+  },
+  "numberOfBedrooms": 3,
+  "numberOfBathroomsTotal": 3.5,
+  "floorSize": { "@type": "QuantitativeValue", "value": 2762, "unitCode": "FTK" },
+  "yearBuilt": 1941
+}
+</script>
+<style>
+  :root {
+    --paper: #F4F0E8;
+    --paper-deep: #EAE4D8;
+    --ink: #1E2422;
+    --slate: #4C5754;
+    --line: #D6CEBF;
+    --brick: #9A4A33;
+    --brick-deep: #7E3A27;
+    --moss: #33493A;
+    --moss-ink: #EEF1EA;
+    --display: "Fraunces", "Iowan Old Style", Georgia, serif;
+    --body: "Instrument Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    --gutter: clamp(20px, 5vw, 64px);
+    --measure: 1180px;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  img, video { display: block; max-width: 100%; }
+  a { color: inherit; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 500; line-height: 1.08; margin: 0; text-wrap: balance; }
+  p { margin: 0; }
+  .wrap { max-width: var(--measure); margin: 0 auto; padding: 0 var(--gutter); }
+  .eyebrow {
+    font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--brick);
+  }
+  .num { font-variant-numeric: tabular-nums lining-nums; }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    min-height: 48px; padding: 0 22px; border-radius: 2px; border: 1px solid transparent;
+    font: 600 15px/1 var(--body); text-decoration: none; cursor: pointer;
+    transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+  }
+  .btn-primary { background: var(--brick); color: #fff; }
+  .btn-primary:hover { background: var(--brick-deep); }
+  .btn-ghost { border-color: currentColor; background: transparent; color: inherit; }
+  .btn-ghost:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  :focus-visible { outline: 2px solid var(--brick); outline-offset: 3px; }
+
+  /* Header */
+  .top {
+    position: sticky; top: 0; z-index: 40;
+    background: rgba(244, 240, 232, 0.94); backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+  }
+  .top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 60px; }
+  .top-id { font-family: var(--display); font-size: 18px; white-space: nowrap; }
+  .top-id span { color: var(--slate); font-family: var(--body); font-size: 13px; margin-left: 10px; }
+  .top-actions { display: flex; align-items: center; gap: 18px; }
+  .top-phone { font-weight: 600; font-size: 15px; text-decoration: none; white-space: nowrap; }
+  .top .btn { min-height: 40px; padding: 0 16px; font-size: 14px; }
+
+  /* Photo slots: a real photo covers the labelled placeholder beneath it */
+  .slot {
+    position: relative; overflow: hidden; background: var(--paper-deep);
+    background-image: repeating-linear-gradient(135deg, transparent 0 14px, rgba(30,36,34,.045) 14px 15px);
+  }
+  .slot::after {
+    content: "Photo: " attr(data-label);
+    position: absolute; inset: 0; display: grid; place-items: center; padding: 16px; text-align: center;
+    font-size: 13px; font-weight: 500; letter-spacing: .04em; color: var(--slate);
+  }
+  .slot img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+
+  /* Hero */
+  .hero { position: relative; }
+  .hero .slot { height: min(74vh, 720px); min-height: 380px; }
+  .hero-card {
+    position: relative; z-index: 2; margin-top: -92px;
+    background: var(--paper); padding: clamp(24px, 4vw, 44px); max-width: 780px;
+    border-top: 3px solid var(--brick);
+  }
+  .hero-card h1 { font-size: clamp(38px, 6.4vw, 76px); letter-spacing: -0.02em; margin-top: 12px; }
+  .hero-sub { margin-top: 10px; color: var(--slate); font-size: 17px; }
+  .hero-price { margin-top: 22px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 22px; }
+  .hero-price strong { font-family: var(--display); font-weight: 500; font-size: clamp(30px, 4.4vw, 44px); letter-spacing: -0.01em; }
+  .hero-price span { font-size: 14px; color: var(--slate); }
+
+  /* Stat rail */
+  .stats { margin-top: clamp(28px, 4vw, 48px); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .stats ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); }
+  .stats li { padding: 22px 18px 20px; border-left: 1px solid var(--line); }
+  .stats li:first-child { border-left: 0; padding-left: 0; }
+  .stats b { display: block; font-family: var(--display); font-weight: 500; font-size: clamp(26px, 3.2vw, 38px); line-height: 1; }
+  .stats small { display: block; margin-top: 8px; font-size: 13px; color: var(--slate); }
+
+  section { padding: clamp(56px, 8vw, 104px) 0; }
+  .sec-head h2 { font-size: clamp(30px, 4.4vw, 50px); letter-spacing: -0.015em; margin-top: 12px; max-width: 16ch; }
+
+  /* Intro */
+  .intro { display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(28px, 6vw, 88px); align-items: start; }
+  .intro .lede { font-family: var(--display); font-size: clamp(24px, 3vw, 34px); line-height: 1.24; letter-spacing: -0.01em; }
+  .intro .body p + p { margin-top: 18px; }
+  .intro .body { color: #333b38; }
+
+  /* Features */
+  .features { border-top: 1px solid var(--line); }
+  .feat-grid { margin-top: 40px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid var(--line); }
+  .feat { padding: 28px 28px 30px 0; border-bottom: 1px solid var(--line); }
+  .feat:not(:nth-child(3n+1)) { padding-left: 28px; border-left: 1px solid var(--line); }
+  .feat h3 { font-size: 22px; line-height: 1.2; }
+  .feat p { margin-top: 10px; font-size: 16px; color: #3a423f; }
+
+  /* Updates band */
+  .updates { background: var(--moss); color: var(--moss-ink); }
+  .updates .eyebrow { color: #D9B9A6; }
+  .updates-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: clamp(28px, 6vw, 88px); align-items: end; }
+  .updates .big { font-family: var(--display); font-size: clamp(54px, 9vw, 116px); line-height: .95; letter-spacing: -0.03em; margin-top: 14px; }
+  .updates .big-note { margin-top: 14px; max-width: 34ch; color: #CBD3C8; }
+  .updates ul { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 32px; }
+  .updates li { break-inside: avoid; padding: 13px 0; border-top: 1px solid rgba(238,241,234,.22); font-size: 17px; }
+
+  /* Gallery */
+  .gallery-grid { margin-top: 40px; display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: clamp(150px, 19vw, 250px); gap: 8px; }
+  .gallery-grid button { all: unset; cursor: zoom-in; display: block; }
+  .gallery-grid button:focus-visible { outline: 2px solid var(--brick); outline-offset: 3px; }
+  .gallery-grid .slot { width: 100%; height: 100%; }
+  .gallery-grid .g-wide { grid-column: span 2; }
+  .gallery-grid .g-big { grid-column: span 2; grid-row: span 2; }
+  dialog.lightbox { border: 0; padding: 0; background: transparent; max-width: 96vw; max-height: 94vh; }
+  dialog.lightbox::backdrop { background: rgba(20, 24, 23, .92); }
+  dialog.lightbox img { max-width: 96vw; max-height: 86vh; object-fit: contain; }
+  dialog.lightbox form { display: flex; justify-content: space-between; align-items: center; padding-top: 10px; color: #fff; font-size: 14px; }
+  dialog.lightbox button { background: none; border: 1px solid rgba(255,255,255,.5); color: #fff; min-height: 40px; padding: 0 16px; font: 600 14px var(--body); cursor: pointer; border-radius: 2px; }
+
+  /* Neighbourhood */
+  .hood { background: var(--paper-deep); }
+  .hood-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 6vw, 88px); align-items: center; }
+  .hood .slot { aspect-ratio: 4 / 3; }
+  .hood p { margin-top: 20px; color: #333b38; }
+  .hood .btn { margin-top: 28px; }
+
+  /* Details */
+  .details-grid { display: grid; grid-template-columns: 1fr 1.6fr; gap: clamp(28px, 6vw, 88px); }
+  dl.facts { margin: 0; display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
+  dl.facts div { display: flex; justify-content: space-between; gap: 20px; padding: 14px 0; border-top: 1px solid var(--line); font-size: 16px; }
+  dl.facts dt { color: var(--slate); }
+  dl.facts dd { margin: 0; text-align: right; font-weight: 500; }
+  .fineprint { margin-top: 22px; font-size: 14px; color: var(--slate); max-width: 62ch; }
+
+  /* Showing */
+  .showing { background: var(--ink); color: var(--paper); }
+  .showing .eyebrow { color: #D9B9A6; }
+  .showing-grid { display: grid; grid-template-columns: 1fr 1.15fr; gap: clamp(28px, 6vw, 88px); align-items: start; }
+  .showing h2 { font-size: clamp(32px, 4.6vw, 54px); letter-spacing: -0.015em; margin-top: 12px; }
+  .showing .pitch { margin-top: 18px; color: #C9CFCB; max-width: 40ch; }
+  .agent { margin-top: 36px; display: flex; gap: 18px; align-items: center; padding-top: 28px; border-top: 1px solid rgba(244,240,232,.2); }
+  .agent .slot { width: 84px; height: 84px; border-radius: 50%; flex: none; background-color: #2C3431; }
+  .agent .slot::after { content: "Photo"; color: #9AA5A0; font-size: 11px; }
+  .agent strong { display: block; font-family: var(--display); font-weight: 500; font-size: 22px; }
+  .agent span { display: block; font-size: 14px; color: #C9CFCB; }
+  .agent a { display: inline-block; margin-top: 6px; font-weight: 600; font-size: 16px; text-decoration: none; border-bottom: 1px solid rgba(244,240,232,.4); }
+  form.lead { background: var(--paper); color: var(--ink); padding: clamp(22px, 3.4vw, 36px); }
+  .field { display: block; margin-bottom: 16px; }
+  .field > span { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+  .field input, .field select, .field textarea {
+    width: 100%; min-height: 48px; padding: 11px 13px; border: 1px solid #B9B1A2; border-radius: 2px;
+    background: #fff; color: var(--ink); font: 400 16px/1.4 var(--body);
+  }
+  .field textarea { min-height: 92px; resize: vertical; }
+  .field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid var(--brick); outline-offset: 1px; border-color: var(--brick); }
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+  .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+  form.lead .btn { width: 100%; }
+  .consent { margin-top: 14px; font-size: 12.5px; line-height: 1.5; color: var(--slate); }
+  .form-note { margin-top: 14px; padding: 14px 16px; font-size: 15px; border-left: 3px solid var(--moss); background: #E6ECE3; }
+  .form-note.err { border-left-color: var(--brick); background: #F3E2DB; }
+  .form-note[hidden] { display: none; }
+
+  /* Footer */
+  footer { padding: 44px 0 110px; font-size: 13.5px; color: var(--slate); border-top: 1px solid var(--line); }
+  .foot-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 28px 64px; }
+  footer strong { color: var(--ink); font-weight: 600; }
+  footer p + p { margin-top: 10px; }
+  .eho { display: inline-flex; align-items: center; gap: 10px; margin-top: 14px; color: var(--ink); font-weight: 600; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+  .eho svg { width: 30px; height: 30px; flex: none; }
+
+  /* Mobile action bar */
+  .mbar { display: none; }
+
+  @media (max-width: 900px) {
+    .intro, .updates-grid, .hood-grid, .details-grid, .showing-grid, .foot-grid { grid-template-columns: 1fr; }
+    .feat-grid { grid-template-columns: 1fr 1fr; }
+    .feat:not(:nth-child(3n+1)) { padding-left: 0; border-left: 0; }
+    .feat:nth-child(even) { padding-left: 24px; border-left: 1px solid var(--line); }
+    .feat:nth-child(odd) { padding-right: 24px; }
+    .stats ul { grid-template-columns: repeat(3, 1fr); }
+    .stats li:nth-child(4) { border-left: 0; padding-left: 0; }
+    .stats li:nth-child(n+4) { border-top: 1px solid var(--line); }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 42vw; }
+    .gallery-grid .g-big { grid-column: span 2; grid-row: span 1; }
+    .sec-head h2 { max-width: none; }
+  }
+  @media (max-width: 620px) {
+    body { font-size: 16px; }
+    .top-phone, .top .btn { display: none; }
+    .top-id span { display: none; }
+    .hero .slot { height: 56vh; min-height: 320px; }
+    .hero-card { margin-top: -48px; margin-right: var(--gutter); }
+    .feat-grid { grid-template-columns: 1fr; }
+    .feat, .feat:nth-child(even), .feat:nth-child(odd) { padding: 22px 0; border-left: 0; }
+    .updates ul { columns: 1; }
+    dl.facts { grid-template-columns: 1fr; }
+    .row2 { grid-template-columns: 1fr; }
+    .mbar {
+      display: grid; grid-template-columns: 1fr 1.5fr; gap: 10px;
+      position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+      padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+      background: var(--paper); border-top: 1px solid var(--line);
+    }
+    .mbar .btn { min-height: 50px; padding: 0 10px; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn { transition: none; } }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="top-id">99 S. Paradise Ave <span>Catonsville, MD · Corner House Realty</span></div>
+    <div class="top-actions">
+      <a class="top-phone num" href="tel:+16673677924">(667) 367-7924</a>
+      <a class="btn btn-primary" href="#showing">Book a showing</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="slot" data-label="front exterior (hero)"><img src="photos/01-front.jpg" alt="Front of the brick home at 99 S. Paradise Avenue" onerror="this.remove()"></div>
+    <div class="wrap">
+      <div class="hero-card">
+        <div class="eyebrow">For sale · Tanglewood, Catonsville</div>
+        <h1>99 S. Paradise Avenue</h1>
+        <p class="hero-sub">Catonsville, Maryland 21228</p>
+        <div class="hero-price">
+          <strong class="num">$550,000</strong>
+          <span>MLS # MDBC2175364 · Listed by Corner House Realty</span>
+        </div>
+      </div>
+
+      <div class="stats">
+        <ul>
+          <li><b class="num">3</b><small>Bedrooms</small></li>
+          <li><b class="num">3.5</b><small>Bathrooms</small></li>
+          <li><b class="num">2,762</b><small>Finished sq ft</small></li>
+          <li><b class="num">0.44</b><small>Acre corner lot</small></li>
+          <li><b class="num">1941</b><small>Year built</small></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap intro">
+      <p class="lede">A 1941 brick house on nearly half an acre, close to downtown Catonsville, with something you rarely find in a home this age: an elevator.</p>
+      <div class="body">
+        <p>Houses from this era were built to be lived in for generations. This one still has the arched doorways, the built-ins and the hardwood floors, and it sits on a 0.44-acre corner lot with mature trees and a yard that is fenced front and back.</p>
+        <p>The current owners have put about $50,000 into it, including the kitchen, a bathroom, the flooring and a new patio. The finished lower level adds a full bath and a second kitchen. It is not counted as a bedroom, and the price reflects the room that level still has to improve.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow">The house</div>
+        <h2>What 1941 got right, and what has been added since</h2>
+      </div>
+      <div class="feat-grid">
+        <div class="feat"><h3>Brick, start to finish</h3><p>Solid brick construction with a German-smear finish that gives the exterior its soft, textured look.</p></div>
+        <div class="feat"><h3>Original character</h3><p>Arched doorways, built-ins and hardwood floors through much of the home.</p></div>
+        <div class="feat"><h3>A residential elevator</h3><p>Moves between levels without the stairs. Useful now, and it keeps the house workable for the long run.</p></div>
+        <div class="feat"><h3>0.44-acre corner lot</h3><p>Mature trees, privacy, and a yard fully fenced in both the front and the back.</p></div>
+        <div class="feat"><h3>Deck and new patio</h3><p>Two places to be outside, with steps down to the backyard and an attached garage alongside.</p></div>
+        <div class="feat"><h3>Finished lower level</h3><p>A full bath and a second kitchen, in a space that works as an office, gym or media room.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="updates">
+    <div class="wrap updates-grid">
+      <div>
+        <div class="eyebrow">Recently done</div>
+        <div class="big num">$50,000</div>
+        <p class="big-note">Approximate amount the sellers have invested in updates. The home is offered as-is.</p>
+      </div>
+      <ul>
+        <li>Updated kitchen</li>
+        <li>Updated bathroom</li>
+        <li>New flooring</li>
+        <li>Fresh paint through much of the home</li>
+        <li>New patio</li>
+        <li>New fencing</li>
+        <li>Plumbing work</li>
+        <li>New water heater</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="photos">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow">Photos</div>
+        <h2>Look around</h2>
+      </div>
+      <div class="gallery-grid" id="gallery"></div>
+    </div>
+  </section>
+
+  <section class="hood">
+    <div class="wrap hood-grid">
+      <div class="slot" data-label="street or aerial view"><img src="photos/13-aerial.jpg" alt="Aerial view of the corner lot and the surrounding Tanglewood streets" onerror="this.remove()" loading="lazy"></div>
+      <div>
+        <div class="eyebrow">The neighborhood</div>
+        <h2 style="font-size:clamp(30px,4.4vw,50px);letter-spacing:-0.015em;margin-top:12px;">Tanglewood, near downtown Catonsville</h2>
+        <p>The house is in the Tanglewood community, close to the shops and restaurants of downtown Catonsville. The town is known for its Fourth of July parade, and this part of it for block parties and neighborhood get-togethers through the year.</p>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=99+S+Paradise+Ave+Catonsville+MD+21228" target="_blank" rel="noopener">Open in Google Maps</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap details-grid">
+      <div class="sec-head">
+        <div class="eyebrow">Details</div>
+        <h2>The facts</h2>
+      </div>
+      <div>
+        <dl class="facts">
+          <div><dt>Price</dt><dd class="num">$550,000</dd></div>
+          <div><dt>Bedrooms</dt><dd class="num">3</dd></div>
+          <div><dt>Bathrooms</dt><dd>3 full, 1 half</dd></div>
+          <div><dt>Finished area</dt><dd class="num">2,762 sq ft</dd></div>
+          <div><dt>Lot</dt><dd>0.44 acre, corner</dd></div>
+          <div><dt>Year built</dt><dd class="num">1941</dd></div>
+          <div><dt>Construction</dt><dd>Brick</dd></div>
+          <div><dt>Parking</dt><dd>Attached garage</dd></div>
+          <div><dt>Lower level</dt><dd>Finished, full bath, second kitchen</dd></div>
+          <div><dt>Accessibility</dt><dd>Residential elevator</dd></div>
+          <div><dt>Community</dt><dd>Tanglewood</dd></div>
+          <div><dt>Terms</dt><dd>Sold as-is</dd></div>
+        </dl>
+        <p class="fineprint">Listing information from Bright MLS, # MDBC2175364. Information is deemed reliable but is not guaranteed and should be independently verified.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="showing" id="showing">
+    <div class="wrap showing-grid">
+      <div>
+        <div class="eyebrow">See it in person</div>
+        <h2>Book a private showing</h2>
+        <p class="pitch">Send a day and time that works and I will confirm it with you directly. If you already have an agent, they can book through ShowingTime.</p>
+        <div class="agent">
+          <div class="slot" data-label="agent"><img src="photos/agent.jpg" alt="Nathan Poole-McCullough" onerror="this.remove()" loading="lazy"></div>
+          <div>
+            <strong>Nathan Poole-McCullough</strong>
+            <span>REALTOR® · Murrow &amp; McCullough Team</span>
+            <span>Corner House Realty</span>
+            <a class="num" href="tel:+16673677924">(667) 367-7924</a>
+          </div>
+        </div>
+      </div>
+
+      <form class="lead" id="lead" novalidate>
+        <div class="row2">
+          <label class="field"><span>First name</span><input name="firstName" autocomplete="given-name" required></label>
+          <label class="field"><span>Last name</span><input name="lastName" autocomplete="family-name" required></label>
+        </div>
+        <div class="row2">
+          <label class="field"><span>Email</span><input name="email" type="email" autocomplete="email" inputmode="email" required></label>
+          <label class="field"><span>Mobile phone</span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required></label>
+        </div>
+        <div class="row2">
+          <label class="field"><span>Preferred day</span><input name="preferredDate" type="date"></label>
+          <label class="field"><span>Time of day</span>
+            <select name="preferredTime">
+              <option value="">No preference</option>
+              <option>Morning</option>
+              <option>Afternoon</option>
+              <option>Evening</option>
+            </select>
+          </label>
+        </div>
+        <label class="field"><span>Are you working with an agent?</span>
+          <select name="hasAgent" required>
+            <option value="">Choose one</option>
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </label>
+        <label class="field"><span>Anything I should know? (optional)</span><textarea name="message"></textarea></label>
+        <label class="hp" aria-hidden="true">Leave this field empty<input name="company" tabindex="-1" autocomplete="off"></label>
+        <button class="btn btn-primary" type="submit">Request a showing</button>
+        <p class="form-note" id="ok" role="status" hidden>Thank you. Your request is in, and I will text or call you shortly to confirm a time.</p>
+        <p class="form-note err" id="err" role="alert" hidden>That did not go through. Please call or text <a class="num" href="tel:+16673677924">(667) 367-7924</a> or email <a href="mailto:nathan@cornerhouserealty.com?subject=Showing%20request%3A%2099%20S.%20Paradise%20Ave">nathan@cornerhouserealty.com</a> and I will set it up.</p>
+        <p class="consent">By sending this request you agree that Nathan Poole-McCullough of Corner House Realty may contact you about this property by phone, text or email. Consent is not a condition of any purchase. Message and data rates may apply.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <p><strong>Corner House Realty</strong><br>1717 Edmondson Ave, Catonsville, MD 21228 · <span class="num">(443) 499-3839</span></p>
+      <p>Listing agent: Nathan Poole-McCullough, Murrow &amp; McCullough Team of Corner House Realty · <span class="num">(667) 367-7924</span> · nathan@cornerhouserealty.com</p>
+      <div class="eho">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3.2" aria-hidden="true"><path d="M5 22 24 8l19 14"/><path d="M10 21v19h28V21"/><path d="M18 27h12M18 33h12" stroke-width="3.6"/></svg>
+        Equal Housing Opportunity
+      </div>
+    </div>
+    <div>
+      <p>99 S. Paradise Avenue, Catonsville, MD 21228. Bright MLS # MDBC2175364. Offered at $550,000 and sold as-is.</p>
+      <p>All information is deemed reliable but is not guaranteed. Square footage, lot size and features should be independently verified by the buyer.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="mbar">
+  <a class="btn btn-ghost" href="tel:+16673677924">Call</a>
+  <a class="btn btn-primary" href="#showing">Book a showing</a>
+</div>
+
+<dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+  <img id="lb-img" alt="">
+  <form method="dialog"><span id="lb-cap"></span><button>Close</button></form>
+</dialog>
+
+<script>
+  /* ---- Configuration -------------------------------------------------- */
+  // Where showing requests are sent. Set this to the Zapier webhook that
+  // creates the lead in Follow Up Boss. While it is empty the form does not
+  // pretend to work: it tells the visitor to call, text or email instead.
+  const LEAD_ENDPOINT = "";
+  const LEAD_SOURCE = "99 S Paradise Ave landing page";
+
+  // Gallery photos, in display order. Drop the files into /photos with these
+  // names, or edit the list. `shape` controls the tile size in the grid.
+  const PHOTOS = [
+    { file: "02-living.jpg",   label: "living room",            shape: "g-big"  },
+    { file: "03-kitchen.jpg",  label: "updated kitchen",        shape: ""       },
+    { file: "04-dining.jpg",   label: "dining room / archway",  shape: ""       },
+    { file: "05-builtins.jpg", label: "built-ins and hardwood", shape: "g-wide" },
+    { file: "06-primary.jpg",  label: "primary bedroom",        shape: ""       },
+    { file: "07-bath.jpg",     label: "updated bathroom",       shape: ""       },
+    { file: "08-elevator.jpg", label: "elevator",               shape: ""       },
+    { file: "09-lower.jpg",    label: "finished lower level",   shape: ""       },
+    { file: "10-deck.jpg",     label: "deck",                   shape: "g-wide" },
+    { file: "11-patio.jpg",    label: "patio and backyard",     shape: ""       },
+    { file: "12-yard.jpg",     label: "fenced yard",            shape: ""       }
+  ];
+
+  /* ---- Gallery -------------------------------------------------------- */
+  const gallery = document.getElementById("gallery");
+  const lightbox = document.getElementById("lightbox");
+  PHOTOS.forEach(function (p) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    if (p.shape) btn.className = p.shape;
+    btn.setAttribute("aria-label", "View photo: " + p.label);
+    const slot = document.createElement("div");
+    slot.className = "slot";
+    slot.dataset.label = p.label;
+    const img = new Image();
+    img.loading = "lazy";
+    img.alt = p.label.charAt(0).toUpperCase() + p.label.slice(1) + " at 99 S. Paradise Avenue";
+    img.onerror = function () { img.remove(); btn.disabled = true; btn.style.cursor = "default"; };
+    img.src = "photos/" + p.file;
+    slot.appendChild(img);
+    btn.appendChild(slot);
+    btn.addEventListener("click", function () {
+      if (!img.isConnected) return;
+      document.getElementById("lb-img").src = img.src;
+      document.getElementById("lb-img").alt = img.alt;
+      document.getElementById("lb-cap").textContent = img.alt;
+      lightbox.showModal();
+    });
+    gallery.appendChild(btn);
+  });
+  lightbox.addEventListener("click", function (e) { if (e.target === lightbox) lightbox.close(); });
+
+  /* ---- Lead form ------------------------------------------------------ */
+  const form = document.getElementById("lead");
+  const ok = document.getElementById("ok");
+  const err = document.getElementById("err");
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    ok.hidden = true; err.hidden = true;
+    if (!form.reportValidity()) return;
+    const data = new FormData(form);
+    if (data.get("company")) { ok.hidden = false; form.reset(); return; } // spam trap
+    data.delete("company");
+    data.set("source", LEAD_SOURCE);
+    data.set("property", "99 S. Paradise Ave, Catonsville, MD 21228");
+    data.set("mlsNumber", "MDBC2175364");
+    data.set("price", "550000");
+    data.set("pageUrl", location.href);
+    data.set("submittedAt", new Date().toISOString());
+    if (!LEAD_ENDPOINT) { err.hidden = false; return; }
+    const button = form.querySelector("button[type=submit]");
+    button.disabled = true; button.textContent = "Sending…";
+    try {
+      // URL-encoded body keeps this a simple request, so no CORS preflight.
+      const res = await fetch(LEAD_ENDPOINT, { method: "POST", body: new URLSearchParams(data) });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      ok.hidden = false; form.reset();
+    } catch (ex) {
+      err.hidden = false;
+    } finally {
+      button.disabled = false; button.textContent = "Request a showing";
+    }
+  });
+</script>
+</body>
+</html>
