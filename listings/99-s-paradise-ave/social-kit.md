@@ -1,6 +1,6 @@
 # 99 S. Paradise Ave: social kit (draft for review)
 
-Nothing here has been posted. Every fact below comes from the MLS record, the showing instructions, or the sellers' own list of features.
+Nothing here has been posted. The landing page is live at https://99-s-paradise-ave.netlify.app Every fact below comes from the MLS record, the showing instructions, or the sellers' own list of features.
 
 **Required on every post:** Nathan Poole-McCullough, Murrow & McCullough Team of Corner House Realty · office (443) 499-3839 · Equal Housing Opportunity
 
@@ -68,8 +68,8 @@ The story leaves the bottom of the frame clear for a link sticker.
 | 11–14s | Kitchen | About $50,000 in updates |
 | 14–18s | Front of the home | $550,000 · 3 bd · 3.5 ba · 2,762 sq ft · Book a showing: link in bio |
 
-- **Still to add:** music, and drone footage if HomeTrack shot any (the zip had photos only).
-- **Higgsfield:** not used yet and no credits spent. The balance is 131.6 credits.
+- **With music:** `social/reel-with-music.mp4`. The instrumental was generated with Higgsfield (ElevenLabs Music v2.5) for 2.62 credits.
+- **Still to add:** drone footage, if HomeTrack shot any. The gallery had photos only.
 
 ## Open house: Sunday, November 15, 10:00 am to 12:00 pm
 
