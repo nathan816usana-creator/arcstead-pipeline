@@ -161,7 +161,7 @@
   .gallery-grid .g-wide { grid-column: span 2; }
   .gallery-grid .g-big { grid-column: span 2; grid-row: span 2; }
   dialog.lightbox { border: 0; padding: 0; background: transparent; max-width: 96vw; max-height: 94vh; }
-  .gallery-more { margin-top: 24px; }
+  .gallery-more { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 12px; }
   dialog.lightbox::backdrop { background: rgba(20, 24, 23, .92); }
   dialog.lightbox img { max-width: 96vw; max-height: 86vh; object-fit: contain; }
   dialog.lightbox .lb-bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-top: 10px; color: #fff; font-size: 14px; }
@@ -348,7 +348,10 @@
         <h2>Look around</h2>
       </div>
       <div class="gallery-grid" id="gallery"></div>
-      <p class="gallery-more"><button class="btn btn-ghost" type="button" id="all-photos">View all 34 photos</button></p>
+      <p class="gallery-more">
+        <a class="btn btn-primary" href="https://www.zillow.com/view-imx/17b29b35-320c-4e11-94e6-4f16af72d5d0?initialViewType=pano&amp;utm_source=dashboard" target="_blank" rel="noopener">Walk through the 3D tour</a>
+        <button class="btn btn-ghost" type="button" id="all-photos">View all 34 photos</button>
+      </p>
     </div>
   </section>
 
