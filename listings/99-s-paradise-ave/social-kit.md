@@ -87,7 +87,8 @@ Nathan Poole-McCullough, Murrow & McCullough Team of Corner House Realty · offi
 Post this from your personal profile, with the reel uploaded as the video (not as a link). Put the website link in the post and again in the first comment.
 
 ```
-Back on the market in Tanglewood: 99 S. Paradise Avenue, Catonsville · $550,000
+OPEN HOUSE this Sunday, November 15, 10 am to 12 pm
+99 S. Paradise Avenue, Catonsville · $550,000 · back on the market in Tanglewood
 
 Some houses you understand the minute you walk in. This one was built in 1941, in solid brick with a slate roof, and it still has what homes from that era are loved for: arched doorways, built-ins, a fireplace, hardwood floors, and a front porch with a swing.
 
@@ -101,7 +102,7 @@ It also has a few things you don't expect in a house this age:
 
 It is being sold as-is and priced with that in mind, and the inspection report is available to anyone who wants to read it before they visit. If you want character and room to make a house your own, this one is worth a look.
 
-Open house this Sunday, Nov 15, 10 am to noon. Or reach out to me directly and I'll set up a private showing: call or text (667) 367-7924.
+Come by the open house this Sunday, November 15, between 10 am and 12 pm. If that doesn't work, reach out to me directly and I'll set up a private showing: call or text (667) 367-7924.
 
 Photos, 3D tour and details: https://99-s-paradise-ave.netlify.app
 
@@ -111,13 +112,13 @@ Nathan Poole-McCullough, REALTOR® · Murrow & McCullough Team of Corner House R
 **Shorter version, for groups that only allow brief real estate posts**
 
 ```
-99 S. Paradise Ave in Catonsville's Tanglewood is back on the market at $550,000. It's a 1941 brick home on 0.44 acres with arched doorways, built-ins, hardwood floors, a residential elevator and about $55,000 in recent updates. 3 bed, 3.5 bath, 2,762 sq ft.
+OPEN HOUSE Sunday, November 15, 10 am to 12 pm. 99 S. Paradise Ave in Catonsville's Tanglewood is back on the market at $550,000. It's a 1941 brick home on 0.44 acres with arched doorways, built-ins, hardwood floors, a residential elevator and about $55,000 in recent updates. 3 bed, 3.5 bath, 2,762 sq ft.
 
-Open house Sunday, Nov 15, 10 am to noon, or call or text me at (667) 367-7924 for a private showing.
+Come by Sunday, or call or text me at (667) 367-7924 for a private showing.
 
 https://99-s-paradise-ave.netlify.app
 
 Nathan Poole-McCullough, REALTOR® · Murrow & McCullough Team of Corner House Realty · (443) 499-3839
 ```
 
-After Sunday, remove the open-house line from both.
+After Sunday, remove the open-house lines from both.
