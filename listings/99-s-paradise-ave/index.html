@@ -491,10 +491,10 @@
 
 <script>
   /* ---- Configuration -------------------------------------------------- */
-  // Where showing requests are sent. Set this to the Zapier webhook that
-  // creates the lead in Follow Up Boss. While it is empty the form does not
-  // pretend to work: it tells the visitor to call, text or email instead.
-  const LEAD_ENDPOINT = "";
+  // Where showing requests are sent: a Zapier webhook that creates the lead
+  // in Follow Up Boss. If this is ever emptied, the form tells the visitor to
+  // call, text or email instead of pretending to work.
+  const LEAD_ENDPOINT = "https://hooks.zapier.com/hooks/catch/27991959/0lTKlfbaVxao2Tn1/";
   const LEAD_SOURCE = "99 S Paradise Ave landing page";
 
   // Every listing photo, in MLS order. File names are photos/p01.jpg to p34.jpg.
