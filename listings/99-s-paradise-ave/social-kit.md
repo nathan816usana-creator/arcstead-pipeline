@@ -39,29 +39,34 @@ It is being sold as-is, and it is priced that way.
 
 If you want to see it, send me a message or book a showing at the link below.
 
-## Graphics (to build once the HomeTrack photos are in)
+## Graphics (built, in `social/`)
 
-| Piece | Size | Lead line | Photo |
+All seven are the real HomeTrack photos with set type. Nothing in them is AI-generated.
+
+| File | Size | Lead line | Photo |
 |---|---|---|---|
-| Feed post | 4:5 | 0.44 acres in Catonsville | Front exterior or drone |
-| Carousel, 5 slides | 4:5 | 1941 · elevator · $50K in updates · the lot · $550,000 and how to book | One real photo per slide |
-| Story | 9:16 | 3 bd · 3.5 ba · 2,762 sq ft · $550,000, with a link sticker | Front exterior |
+| `feed-post-4x5.png` | 1080×1350 | 0.44 acres. 1941 brick. An elevator. | Front of the home |
+| `story-9x16.png` | 1080×1920 | 99 S. Paradise Avenue, $550,000 | Front of the home |
+| `carousel-1.png` | 1080×1350 | 0.44 acres in Catonsville | Front of the home |
+| `carousel-2.png` | 1080×1350 | The character is still here | Living room |
+| `carousel-3.png` | 1080×1350 | And it has an elevator | Upper landing |
+| `carousel-4.png` | 1080×1350 | About $50,000 in updates | Kitchen |
+| `carousel-5.png` | 1080×1350 | $550,000 and how to book | Front of the home |
 
-Price, address and the brokerage line are set as real type over the real photos, so no number or name can come out wrong.
+The story leaves the bottom of the frame clear for a link sticker.
 
-## Reel: beat plan (9:16, about 18 seconds)
+## Reel (draft built, `social/reel-draft-silent.mp4`)
 
-Real HomeTrack drone footage and photos only. Higgsfield handles the edit, the motion on stills, and the music.
+18 seconds, 1080×1920, cut from the real photos with a slow push on each and the text below. It has no sound yet.
 
-| Time | On screen | Text | Source |
-|---|---|---|---|
-| 0–2s | Drone push-in over the corner lot | 0.44 acres in Catonsville | Drone video |
-| 2–5s | Front of the house | Built 1941. Solid brick. | Drone or front photo |
-| 5–8s | Arched doorway, built-ins, hardwood | The character is still here | Interior photos |
-| 8–11s | Elevator, held still for a beat | And it has an elevator | Elevator photo |
-| 11–14s | Kitchen, bathroom, patio in quick cuts | About $50K in recent updates | Interior and patio photos |
-| 14–18s | Drone pull-back | $550,000 · 3 bd · 3.5 ba · 2,762 sq ft · Book a showing, link in bio | Drone video |
+| Time | Photo | Text |
+|---|---|---|
+| 0–3s | Front of the home | 0.44 acres in Catonsville |
+| 3–6s | Front, straight on | Built 1941. Solid brick. |
+| 6–8s | Living room | The character is still here |
+| 8–11s | Elevator | And it has an elevator |
+| 11–14s | Kitchen | About $50,000 in updates |
+| 14–18s | Front of the home | $550,000 · 3 bd · 3.5 ba · 2,762 sq ft · Book a showing: link in bio |
 
-- **Audio:** warm instrumental with the peak on the elevator line. No voiceover unless you want to record one.
-- **End card:** brokerage line, Equal Housing mark, and a small @nathanzpmccullough credit.
-- **Cost:** not quoted yet. I will give you a credit estimate before generating anything. The Higgsfield balance is 131.6 credits.
+- **Still to add:** music, and drone footage if HomeTrack shot any (the zip had photos only).
+- **Higgsfield:** not used yet and no credits spent. The balance is 131.6 credits.
